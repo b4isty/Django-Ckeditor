@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static " ckeditor/ckeditor-init.js" %}"></script>
+    <script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
+
+</head>
+<body>
+
+<div>
+<h2>{{blog.title}}</h2>
+<p>{{blog.content|safe}}</p><br>
+</div>
+<a href="{% url 'app_ckeditor:blog_edit' pk=blog.id %}"><button>Edit</button></a>
+</body>
+</html>
