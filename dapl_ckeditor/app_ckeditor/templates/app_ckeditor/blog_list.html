@@ -1,0 +1,47 @@
+{% extends 'app_ckeditor/dashboard.html' %}
+{% block body %}
+<style>
+    .search__part{float: right; width: auto;}
+.search__part .userinput{width: auto; margin-right: 16px;}
+
+
+</style>
+<div class="profileUser">
+    <form action="/blog_list/" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <div class="search__part">
+            <input class="userinput" type="text" size="40" name="search_value" value="" id="searchbar" placeholder="search your blog">
+            <input type="submit"  value="Search"/>
+        </div>
+    </form>
+</div>
+<div class="container" style="text-allign:center">
+    <h2>Blog List </h2>
+    {% for blog in blogs %}
+    <div class="container-fluid">
+        <!--<h2><a href="{% url 'app_ckeditor:blog_details' pk=blog.id%}">{{blog.title}}</a></h2>-->
+        <div class="list-group">
+            <a href="{% url 'app_ckeditor:blog_details' pk=blog.id%}" class="list-group-item list-group-item-info">
+                {{blog.title}}
+            </a>
+
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
+
+<!--{% for blog in blogs %}-->
+<!--<a class="post" href="#">-->
+<!--<div class="blog__title">-->
+<!--{{blog.title}}-->
+<!--</div>-->
+
+<!--</a>-->
+<!--{% endfor %}-->
+
+</body>
+</html>

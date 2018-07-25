@@ -8,8 +8,7 @@ from .forms import BlogForm
 # Create your views here.
 
 def home(request):
-    blogs = Blog.objects.all()
-    return render(request, 'app_ckeditor/home.html', {"blogs": blogs})
+    return render(request, 'app_ckeditor/home.html')
 
 
 def blog(request):
@@ -21,8 +20,12 @@ def blog(request):
         if form.is_valid():
             instance = form.save(commit=False)
             instance.save()
-            return HttpResponseRedirect(reverse_lazy('app_ckeditor:home'))
+            return HttpResponseRedirect(reverse_lazy('app_ckeditor:blog_list'))
 
+
+def blog_list(request):
+    blogs = Blog.objects.all()
+    return render(request, 'app_ckeditor/blog_list.html', {"blogs": blogs})
 
 def blog_detail_view(request, pk):
     blog = get_object_or_404(Blog, pk=pk)
@@ -38,3 +41,9 @@ def blog_edit_view(request, pk):
         return HttpResponseRedirect(reverse_lazy('app_ckeditor:home'))
     else:
         return render(request, 'app_ckeditor/blog_edit.html', {"form": form})
+
+
+def blog_delete(request, pk):
+    blog = get_object_or_404(Blog, pk=pk)
+    blog.delete()
+    return HttpResponseRedirect(reverse_lazy('app_ckeditor:blog_list'))

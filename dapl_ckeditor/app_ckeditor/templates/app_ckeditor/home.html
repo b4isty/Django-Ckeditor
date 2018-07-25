@@ -1,24 +1,11 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript" src="{% static " ckeditor
-    /ckeditor-init.js" %}"></script>
-    <script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
 
-</head>
-<body>
-<h2>Blog List </h2>
-{% for blog in blogs %}
-<div>
-    <h2><a href="{% url 'app_ckeditor:blog_details' pk=blog.id%}">{{blog.title}}</a></h2>
+{% extends 'app_ckeditor/dashboard.html' %}
+{% block body %}
+<div class="container">
+    <div class="jumbotron">
+        <h1>This is a Simple Blog</h1>
+    </div>
 </div>
-
-{% endfor %}
-
 <!--{% for blog in blogs %}-->
 <!--<a class="post" href="#">-->
 <!--<div class="blog__title">-->
@@ -27,6 +14,6 @@
 
 <!--</a>-->
 <!--{% endfor %}-->
-
+{% endblock %}
 </body>
 </html>

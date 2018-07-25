@@ -1,19 +1,22 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
-    <!--<script type="text/javascript" src="{% static " ckeditor/ckeditor-init.js" %}"></script>-->
-    <!--<script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>-->
-</head>
-<body>
-<form class="form-group" method="POST" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ form.media }}
-    {{ form.as_p }}
-    <input type="submit"/>
-</form>
-</body>
-</html>
+
+{% extends 'app_ckeditor/dashboard.html' %}
+{% block body %}
+<div class="container" style="text-allign:center">
+    <h2>Create Blog </h2>
+    <div class="container-fluid">
+        <form class="form-group" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.media }}
+            {{ form.as_p }}
+            <input type="submit" style="background-color:green; color:white">
+        </form>
+
+    </div>
+
+</div>
+
+</div>
+
+{% endblock %}
+
+
