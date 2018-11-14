@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c811fb7-f3f5-4a83-9ea8-3172b5882083" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dapl_ckeditor/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ckeditor_proj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ckeditor_proj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home_side_navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/side_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/side_navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dapl_ckeditor/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/dapl_ckeditor/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,30 +30,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="538" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="61" />
+          <entry key="Python" value="349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="7" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="html" value="7" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="8" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="61" />
+          <entry key="html" value="538" />
+          <entry key="py" value="349" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
@@ -63,29 +68,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="120">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/settings.py">
+        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
-              <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="e#637#669#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -93,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -103,30 +96,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="76" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="76" />
+              <caret line="10" column="75" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="75" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -146,24 +134,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_details.html">
+        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/side_navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="300">
+              <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#994#1001#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_edit.html">
+        <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home_side_navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+            <state relative-caret-position="379">
+              <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#994#1001#1" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,6 +173,8 @@
       <find>mySidenav</find>
       <find>openNav</find>
       <find>closeNav</find>
+      <find>openNav()</find>
+      <find>column</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,31 +183,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/models.py" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/blog.html" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/admin.py" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/forms.py" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/manage.py" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_delete.html" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/settings.py" />
-        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home.html" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/dashboard.html" />
-        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog.html" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_details.html" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_edit.html" />
-        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/views.py" />
-        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/side_navbar.html" />
-        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html" />
-        <option value="$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/urls.py" />
-        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/urls.py" />
         <option value="$PROJECT_DIR$/dapl_ckeditor/requirements.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/urls.py" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/urls.py" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/views.py" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home_side_navbar.html" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home.html" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog.html" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/side_navbar.html" />
+        <option value="$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="281" />
-    <option name="y" value="297" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="539" />
+    <option name="y" value="110" />
     <option name="width" value="816" />
     <option name="height" value="527" />
   </component>
@@ -233,6 +225,32 @@
               <item name="Django-Ckeditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django-Ckeditor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django-Ckeditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="dapl_ckeditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-Ckeditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="dapl_ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="app_ckeditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-Ckeditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="dapl_ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="app_ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-Ckeditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="dapl_ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="app_ckeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="app_ckeditor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -242,7 +260,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ufo_backend" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -276,10 +294,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="297" width="816" height="527" extended-state="0" />
+    <frame x="45" y="-4" width="1321" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3379571" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18952234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +307,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.49122807" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14440994" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -297,6 +315,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17565486" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22670807" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -322,72 +359,16 @@
     <entry file="file://$PROJECT_DIR$/dapl_ckeditor/media/uploads/2018/07/23/her_thumb.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dapl_ckeditor/media/uploads/2018/07/24/download_thumb.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dapl_ckeditor/media/uploads/2018/07/24/download.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/side_navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -397,16 +378,6 @@
           <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -421,33 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dapl_ckeditor/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -457,8 +401,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venvs/Django-Ckeditor/lib/python3.5/site-packages/django/template/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/dapl_ckeditor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="75" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="75" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#script#2;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/home_side_navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+          <folding>
+            <element signature="e#994#1001#1" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/templates/app_ckeditor/side_navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+          <folding>
+            <element signature="e#994#1001#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dapl_ckeditor/app_ckeditor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,43 +5,48 @@
 .search__part .userinput{width: auto; margin-right: 16px;}
 
 
+
+
+
+
 </style>
 <div class="profileUser">
     <form action="/blog_list/" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
 
         <div class="search__part">
-            <input class="userinput" type="text" size="40" name="search_value" value="" id="searchbar" placeholder="search your blog">
-            <input type="submit"  value="Search"/>
+            <input class="userinput" type="text" size="40" name="search_value" value="" id="searchbar"
+                   placeholder="search your blog">
+            <input type="submit" value="Search"/>
         </div>
     </form>
 </div>
 <div class="container" style="text-allign:center">
     <h2>Blog List </h2>
-    {% for blog in blogs %}
     <div class="container-fluid">
-        <!--<h2><a href="{% url 'app_ckeditor:blog_details' pk=blog.id%}">{{blog.title}}</a></h2>-->
-        <div class="list-group">
-            <a href="{% url 'app_ckeditor:blog_details' pk=blog.id%}" class="list-group-item list-group-item-info">
-                {{blog.title}}
-            </a>
 
+        {% for blog in blogs %}
+
+        <span class="border border-primary">
+        <div class="card text-black" style="max-width: 30rem;margin: 25px;">
+            {% if blog.featured_image %}
+            <img class="card-img-top" src="{{blog.featured_image.url}}" alt="Card image cap" style="width: 100px;
+    height: 50px;">
+            {% else %}
+            <img class="card-img-top" src="" alt="Card image cap">
+            {% endif %}
+            <div class="card-body">
+                <h5 class="card-title"><a href="{% url 'app_ckeditor:blog_details' pk=blog.id%}">{{blog.title}}</a></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
         </div>
+            </span>
 
+
+        {% endfor %}
     </div>
-    {% endfor %}
+
+    {% endblock %}
+
 </div>
-
-{% endblock %}
-
-<!--{% for blog in blogs %}-->
-<!--<a class="post" href="#">-->
-<!--<div class="blog__title">-->
-<!--{{blog.title}}-->
-<!--</div>-->
-
-<!--</a>-->
-<!--{% endfor %}-->
-
-</body>
-</html>
