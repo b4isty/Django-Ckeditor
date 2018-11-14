@@ -58,7 +58,9 @@ body {
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="{% url 'app_ckeditor:home' %}">Home</a>
+    {% if request.user.is_authenticated %}
     <a href="{% url 'app_ckeditor:blog' %}">Create Blog</a>
+    {% endif %}
     <a href="{% url 'app_ckeditor:blog_list' %}">Blog List</a>
     <a href="#">Profile</a>
     <a href="#">Contact</a>
